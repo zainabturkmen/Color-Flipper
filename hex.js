@@ -7,11 +7,10 @@ btn.addEventListener("click", function(){
     // const randomNum = getRndomNum();
 
     let hexColor = "#";
+    for(let i=0; i<6; 1++){
+        hexColor = hex[0];
+    }
 
-    document.body.style.backgroundColor = hex[randomNum]
-    color.textContent = hex[randomNum];
+    document.body.style.backgroundColor = hexColor;
+    color.textContent = hexColor;
 });  
-
-// function getRndomNum(){
-//    return Math.floor(Math.random()*hex.length)
-// };

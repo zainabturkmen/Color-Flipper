@@ -4,11 +4,14 @@ const btn = document.getElementById('btn');
 const color = document.querySelector('.color')
 
 btn.addEventListener("click", function(){
-    const randomNum = getRndomNum();
+    // const randomNum = getRndomNum();
+
+    let
+
     document.body.style.backgroundColor = hex[randomNum]
     color.textContent = hex[randomNum];
 });  
 
-function getRndomNum(){
-   return Math.floor(Math.random()*hex.length)
-};
+// function getRndomNum(){
+//    return Math.floor(Math.random()*hex.length)
+// };

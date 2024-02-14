@@ -9,3 +9,7 @@ btn.addEventListener("click", function(){
     color.textContent = colors[randomNumber];
 });
 
+function getRandomNumber(){
+    return Math.random();
+}
+

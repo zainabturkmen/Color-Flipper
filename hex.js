@@ -11,6 +11,6 @@ btn.addEventListener("click", function(){
         hexColor = hex[0];
     }
 
-    document.body.style.backgroundColor = hexColor;
     color.textContent = hexColor;
+    document.body.style.backgroundColor = hexColor;
 });  

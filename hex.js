@@ -12,7 +12,7 @@ btn.addEventListener("click", function(){
 
     color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
-});     
+});       
 
 function getRndomNum(){
    return Math.floor(Math.random()*hex.length)
